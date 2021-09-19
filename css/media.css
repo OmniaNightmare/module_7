@@ -1,14 +1,94 @@
-/* xs (<=543px) */
-@media (max-width: 575px) { ... }
+/* xl-размер (>=1200px) */
+/* CSS для >=1200px */
 
-/* sm (>=576 и <=767) */
-@media (min-width: 576px) and (max-width: 767px) { ... }
+/* lg-размер (<=1199px) */
+@media (max-width: 1199px) {
+    /* CSS для ширины от 992px до 1199px */
+  }
+  
+  /* md-размер (<=991px) */
+  @media (max-width: 991px) {
+      .row_2{
+        text-align: center;
+        margin-top: 30px;
+        padding-bottom: 30px;
+      }
+      .present p{
+          margin: 20px 0;
+      }
+      .present h1{
+          margin-top: 20px;
+      }
+    .about{
+        padding-top: 50px;
+    }
 
-/* md (>=768 и <=991) */
-@media (min-width: 768px) and (max-width: 991px) { ... }
+    .about p{
+        padding: 0 500px;
+    }
 
-/* lg (>=992 и <=1199) */
-@media (min-width: 992px) and (max-width: 1199px) { ... }
+    .row_5{
+        justify-content: center;
+        text-align: center;
+    }
+    .my_skills{
+        justify-content: center;
+        text-align: center;
+    }
+    .bg_skills{
+        width: 720px;
+    }
+    .img_skills{
+        margin-top: 20px;
+    }
+    .gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .img_gallery{
+        margin-bottom: 10px;
+    }
+    .row_8{
+        
+    }
+    .microsoft{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img_microsoft{
+        height: 120px;
+        width: 250px;
+    }
+    .want p{
+        padding: 0 500px;
+    }
+    .row_9{
+        margin-top: 40px;
+    }
+    .want h2{
+        padding-bottom: 30px;
+    }
+    .want p{
+        padding: 0 700px;
+    }
+    .row_10{
+        display: block;
+    }
 
-/* xl (>=1200) */
-@media (min-width: 1200px) { ... }
+}
+  
+  /* sm-размер (<=768px) */
+  @media (max-width: 767px) {
+    /* CSS для ширины от 576px до 767px */
+  }
+  
+  /* xs-размер (<=575px) */
+  @media (max-width: 575px) {
+    .present p{
+        padding: 0 200px;
+    }
+
+
+}
