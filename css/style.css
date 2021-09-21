@@ -22,25 +22,37 @@ body {
   .h2, h2 {
       font-size: 2rem;
   }
-  .section {
-    width: 1920px;
-    padding: 0;
-}
 
 ul{
     margin: 0;
 }
-
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
 .container {
-    width: 1113px;
-    padding: 0;
+
 }
 
 
 /* <<<<<<<<<<<Menu row_1>>>>>>>>>>> */
 
-.section_first{
+
+.row1{
+margin-top: 160px;
+padding-bottom: 160px;
+
+}
+
+.s1, .s4, .s7{
     background-color: #EEEFF1;
+}
+.row1 p{
+    padding: 60px 0;
+}
+
+.img_comp{
+    margin-top: 30px;
 }
 
 .navbar{
@@ -110,32 +122,25 @@ button:focus {
 
 /* <<<<<<<<<<<row_3>>>>>>>>>>> */
 
-.about, .about2{
-    display: block;
+.about{
     text-align: center;
-    justify-content: center;
-    padding-top: 112px;
+    margin: 112px 0 100px 0;
 }
 
-.row_3{
-padding-bottom: 100px;
-background-color: white;
+.row2{
+width: 1920px;
 }
 
 
 /* <<<<<<<<<<<row_4>>>>>>>>>>> */
 
-.row_4{
-    margin: 0;
-}
 
-.projects{
+.s2{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 250px;
     background-color: #34547A;
-    padding: 0;
 }
 
 .img_line{
@@ -146,8 +151,8 @@ background-color: white;
 
 /* <<<<<<<<<<<row_5>>>>>>>>>>> */
 
-.section_third{
-    margin-top: 102px;
+.s3{
+    margin: 100px 0 100px 0;
 }
 
 .skills_block{
@@ -194,6 +199,12 @@ background-color: white;
 }
 
 /* <<<<<<<<<<<row_6>>>>>>>>>>> */
+.s4{
+    padding: 100px 0 100px 0;
+}
+.row_6{
+    text-align: center;
+}
 
 .row_6 h2{
     padding-bottom: 50px;
@@ -203,37 +214,31 @@ background-color: white;
     padding-bottom: 57px;
 }
 
-.embed-responsive{
-    margin-bottom: 100px;
-}
-
 /* <<<<<<<<<<<row_7>>>>>>>>>>> */
 
 .img_gallery{
-    width: 480px;
-    padding: 0;
-    margin: 0;
+    width: 475px;
+
 }
 
-.row_7{
+.row7{
+    padding-top: 30px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.gallery{
-    padding: 0 auto;
-}
+
 
 /* <<<<<<<<<<<row_8>>>>>>>>>>> */
 
-.row_8{
+.row8{
     margin-top: 72px;
-}
-
-.microsoft{
     display: flex;
+    align-items: center;
     justify-content: center;
 }
+
 
 .img_microsoft{
     margin: 0 15px;
@@ -241,12 +246,10 @@ background-color: white;
 
 /* <<<<<<<<<<<row_9>>>>>>>>>>> */
 
-.row_9{
-    margin-top: 200px;
-    display block;
-    justify-content: center;
+.s7{
+    margin-top: 100px;
+    padding-top: 100px;
     text-align: center;
-
 }
 .send{
     margin-bottom: 100px;
@@ -274,9 +277,18 @@ height: 200px;
 /* <<<<<<<<<<<row_11>>>>>>>>>>> */
 
 
-.vk{
+.s8{
     height: 151px;
     background-color: #34547A;
+    display: flex;
+    align-items: center;
+
+}
+.ft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .vk_logo{
@@ -284,17 +296,10 @@ height: 200px;
     padding: 0 11px;
 }
 
-.vk{
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .footer{
-margin-left: 406px;
+    color: #fff;
 }
 
 .img_footer{
-    margin-right: 389px;
 }
